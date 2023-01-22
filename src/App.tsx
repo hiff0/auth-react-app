@@ -1,8 +1,11 @@
+import styles from './App.module.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Привет</h1>
+    <div className={styles.container}>
+      <header className={styles.header}>
+
+      </header>
     </div>
   );
 }
